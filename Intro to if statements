@@ -1,0 +1,37 @@
+#Garang Kuol
+#foundations of programming 
+#4.02
+#This is an application for a cultural club in Hawaii
+#Pseudocode
+#1.create a club
+#2.ask user input in order to see if they meet requirements.
+#3.use user input to see if this is the club for them
+#4.tell the user if their application is accepted
+def main():
+	print(“Here at Honolulu we are a very exclusive association only available to native-born Hawaiians and longtime residents.”)
+	print(“If you would like to apply then please answer these questions.”)
+	userName = input(“what is your name.”)
+	print(userName)
+	
+	birthPlace = input(“In which state were you born.”)
+	residentTime = int(input(“how many years have you lived in Hawaii”))
+	userAge = int(input(“How old are you”))
+	
+	print(“Your info:”)
+	print(“Place of birth: “ + birthPlace)
+	print(“Age: “ + str(userAge))
+	print(“Time as Resident: “ + str(residentTime))
+
+	if(birthPlace == “Hawaii” or residentTime >= 20 and userAge > 39):
+		print(“Your application is accepted “ + userName)
+	else:
+		print("Your  application  is denied")
+main()
+#A bug I ran into during the creation process of this code was a misprint in the output so.
+#I reorganized the print statements.
+#I could make the application process more rigorous
+#I could leave my email so that they can give me feedback
+#to make this program better I could increase the number of conditions
+#Potential bugs are misinformation given to the users
+
+
