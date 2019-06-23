@@ -1,0 +1,25 @@
+#Garang Kuol
+#8/22/18
+#This is a mad lib meant to be funny.
+
+
+def main():
+   numberOne = input(“name”)
+   numberTwo = input(“height”)
+   numberThree = input(“street name”)
+   numberFour = input(“type”)
+   numberFive = input(“things that can be fallen into”)
+   print(“There was once an elf named “ + numberOne + “. One day the “ + numberTwo + “ tall elf walked down the “ + numberThree + “ “ + numberFour + “ he often fell while walking, well this day he fell into “ + numberFive + “.”)
+   funnyWords = [bopple, hupple, tyrum, midge]
+   
+   question = input(“Was this story interteining”)
+   if(question == “yes”):
+      print(“thank you”)
+   else: 
+      print(“thats fair”)
+main()
+
+#The purpose of this program is to create a funny story
+#It can make people laugh
+#I miswrote a variable, so i had to go back and rewrite 
+#The next time i write a program i will use better variable names
