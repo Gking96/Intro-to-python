@@ -1,0 +1,46 @@
+#Garang Kuol
+#pseudocode
+#1.create class superhero
+#2.give superhero class objects
+#3.create villain 
+#5.create point class 
+#6.display information with print
+#The program displays information about a hero.
+class Superhero:
+   def __init__(self, name = "", planetOfBirth = “”, powerOrigin = “”, userPower = “”):
+       self.name = name
+       self.planetOfBirth = planetOfBirth
+       self.powerOrigin = powerOrigin
+       self.userPower = userPower
+   
+   def userVillain(self, villain):
+        self.villain = darcy
+   def addStrengthPts(self, points):
+        self.strengthPts = self.strengthPts + points
+def main(): 
+    points = input("how strong is the superHero note: Based of 1000")
+    superHero = Superhero("burt", "xutan-09", "Hereditary", "eye of creation")
+    print(“Application for The Justice Lords”)
+    print(“Name: ” + superHero.name)
+    print(“Planet of birth: ” + superHero.planetOfBirth)
+    print(“Origin of power: ” +superHero.powerOrigin)
+    print(“Power: ” + superHero.userPower)
+	strength = 200 + int(points)
+    print(“Strength: ” + str(strength))
+	
+#No this was done On Purpose
+    if(strength <= 9000 and strength >= 800):
+        print(“")
+        print(“Congratulations, you are accepted”)
+        print(“”)
+        print(“Hello lord welcome to the justice lords. We strive for absolute peace through subservients”)
+    else:
+        print(“”)
+        print(“You do not meet the requirements”)
+
+main()
+
+#The purpose of this program is to display information about a hero.
+#The program could be used for entertainment such as inputting jokes.
+#A problem I ran into was I was the if statement would not appear so I changed its parameters.
+#The next time I write a program I will pay more attention to what I have typed.
