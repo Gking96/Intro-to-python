@@ -1,0 +1,30 @@
+#Garang Kuol
+#Pseudocode
+#1.create message
+#2.print encoded message
+#3.print decoded message
+#This program allows me to display a code in two different ways.
+def main():
+    code = "They lurk in the shadows of the forgotten graves."
+    secretMessage = []
+
+    for c in code:
+        secretMessage.append(ord(c))
+
+    print(“Secret Message”)
+    print(“encoded:”)
+
+    for d in secretMessage:
+        print(d),
+
+    print("")
+    print(“Decoded:”)
+    for m in secretMessage:
+        print(chr(m)),
+
+main()
+#The purpose of this program is two display a message.
+#My program could be used to learn ASCII.
+#A problem I ran into was my encoded message was too close to my decoded message. To fix it I added a print statement in between.
+#If I were to do this again I would use a better message.
+
