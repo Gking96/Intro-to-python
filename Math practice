@@ -1,0 +1,24 @@
+#Garang Kuol
+#This program converts the inches of math book to centimeters
+#1.Create a class that converts inches to centimeters
+#2.set inputs to ask the users for measurments
+#3.print conversions
+#4.print volume
+def convertDist(inches):
+    
+   newCent =  inches * 2.54
+   return newCent
+def main():
+   bookHeight = float(input("Math book height entered in inches: "))
+   bookWidth = float(input("Math book Width entered in inches: "))
+   bookDepth = float(input("Math book depth entered in inches: "))
+   print("The width of your math book in centimeters is " +str( convertDist(bookWidth) ))
+   print(“The height of your math book in centimeters is ” + str( convertDist(bookHeight) ))
+   print(“The depth of your math book in centimeters is ” + str( convertDist(bookHeight) ))
+   bookVolume = bookHeight * bookWidth * bookDepth
+   print(“The volume of your math book is “ + str(bookVolume) + “cm^3”)
+main()
+#The purpose of my program is to convert book measurements from inches to centimeters
+#This program could be useful for determining if a bag would hold your book
+#A problem I ran into was some grammar issues. I fixed it by rereading the program
+#If I were to do this I would pick a more relevant subject.
