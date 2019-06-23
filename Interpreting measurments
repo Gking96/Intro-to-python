@@ -1,0 +1,55 @@
+#Math module
+#1/10/18
+#Garang Kuol
+
+#pseudocode
+#1.Print statements
+#2.define variables with input from user
+#3.create equations
+#4.print statements
+
+
+from math import*
+
+def main():
+print(“Jim is writing a report about planets. For fun facts, he wants to calculate the volume and surface area of his math textbook.”)
+print(“He needs your help by providing the dimensions of the book.")
+a = input("what is the height of the side of your math book. Please only give me the number.")
+b = input(“what is the length of the same side. Please only give me the number.”)
+c = input(“what is the width of the cover of your math book. Please only give me the number”)
+d = input(“what is the height of your book cover. Please only give me the number.")
+
+
+yh = int(a)
+yl = int(b)
+xw = int(c)
+xh = int(d)
+
+
+x = int(xw * xh)
+y = int(yh * yl)
+
+sb= pow(y, 2)
+s = pow(x, 2)
+
+
+sur = int(s * 4) + int(sb * 2)
+vol = int(yh * yl * xw)
+
+
+book = input(“What is the name of your book”)
+print(“The math book is ” + book + “.”)
+
+
+print(“With a surface area of “ + str(sur) + “.”)
+print(“And a volume of “ + str(vol) + ”.”)
+main()
+
+#The purpose of this program was to assist Jim with his project.
+#A real-world application for this would be a database that uses sizes of books to see books in which area were outdated without having to inform said area.
+#i ran into several parse errors during the assignment. To fix it I often had to copy my work and refresh the page and paste.
+#The next time I write a program I will make sure to pay more attention to the amount of time I am on idle.
+
+
+
+
