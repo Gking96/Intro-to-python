@@ -1,0 +1,36 @@
+#Garang Kuol
+#6/19/18
+#This program is a list of my favorite shows
+#Pseudocode
+#1. Choose list type
+#2.Arrange items in a list
+#3.use list function
+#4.number list
+#5.ask user for their favorite show
+#6.display list
+def main():
+	usersFavorite = input(“What is your favorite shows? “)
+	print(“What is your favorite shows? “ + usersFavorite)
+	userMedium = input(“What do you watch your shows on”)
+	print(“What do you watch your shows on? “ +userMedium)
+	print(““)
+
+	favoriteMedium = [“Youtube”, “Hulu”, “Netflix”]
+	favoriteShows = [“One Piece”, “Family Guy”, “How i Met Your Mother”, “The Simpsons”, “scrubs”]
+		
+	length = len(favoriteShows)
+	print(“These are some on my Favorite shows:”)
+	for n in range(0, length):
+		print(str(n + 1) + “.” + favoriteShows[n])
+	
+	for n in range(0, length):
+		if(usersFavorite == favoriteShows[n]):
+			print(“Your favorite show is ” + usersFavorite + “. I like it too.”)
+main()
+
+
+
+#The purpose of this program is to inform people of some of my favorite shows.
+#The program could be useful in the real world to compare shows with my friends
+#A problem I ran into was I forgot that google docs automatically uppercases letters so I had to go back and lowercase important words.
+#If I were to do this program again I would find a way to display how many shows the user and I have in common and suggest shows from a different list.
